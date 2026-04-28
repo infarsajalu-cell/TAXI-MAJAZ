@@ -106,8 +106,9 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-xs text-white/30">
-            © 2025 Majaz Tours & Travels. All Rights Reserved.
+          <p className="text-xs text-white/30 text-center sm:text-left">
+            © 2025 Majaz Tours & Travels. All Rights Reserved. <br className="sm:hidden" />
+            <span className="opacity-70 mt-1 sm:mt-0 inline-block">Provided and Created by Tekuvo Technologies</span>
           </p>
           <button onClick={scrollToTop} aria-label="Scroll to top"
             className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-gold hover:text-gold transition-colors duration-300 text-white/30">
