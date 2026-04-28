@@ -9,9 +9,10 @@ import MagneticButton from "@/components/MagneticButton";
 
 const carOptions = [
   { value: "", label: "Select Car Type" },
-  { value: "Toyota Etios", label: "Toyota Etios — Sedan (4 Pax)" },
-  { value: "Ertiga Traveller", label: "Ertiga — MPV (7 Pax)" },
-  { value: "Innova Crysta", label: "Innova Crysta — Premium (7 Pax)" },
+  { value: "Toyota Etios", label: "Toyota Etios — Sedan (4 Max)" },
+  { value: "Ertiga Traveller", label: "Ertiga — MPV (7 Max)" },
+  { value: "Innova Crysta", label: "Innova Crysta — Premium (7 Max)" },
+  { value: "Force Traveller", label: "Force Traveller — Group Van (17 Max)" },
 ];
 
 interface FormData {
@@ -106,7 +107,7 @@ export default function EnquiryForm() {
                 </label>
                 <input type={f.type} name={f.name} value={formData[f.name as keyof FormData]}
                   onChange={handleChange} placeholder={f.placeholder}
-                  min={f.type === "number" ? "1" : undefined} max={f.type === "number" ? "7" : undefined}
+                  min={f.type === "number" ? "1" : undefined} max={f.type === "number" ? "17" : undefined}
                   className="form-input-box" aria-label={f.label} />
                 {errors[f.name as keyof FormData] && <p className="text-red-500 text-xs mt-1">{errors[f.name as keyof FormData]}</p>}
               </div>
