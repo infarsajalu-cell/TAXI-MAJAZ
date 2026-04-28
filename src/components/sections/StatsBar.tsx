@@ -7,19 +7,19 @@ import CounterAnimation from "@/components/CounterAnimation";
 const stats = [
   {
     icon: Users,
-    value: 1000,
+    value: 10000,
     suffix: "+",
     label: "Happy Customers",
   },
   {
     icon: MapPin,
-    value: 25,
+    value: 125,
     suffix: "+",
     label: "Destinations",
   },
   {
     icon: Calendar,
-    value: 24,
+    value: 26,
     suffix: "+",
     label: "Years Experience",
   },

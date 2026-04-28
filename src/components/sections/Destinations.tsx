@@ -44,40 +44,34 @@ const destinations = [
     description: "Serene freshwater lake surrounded by evergreen forest",
   },
   {
-    name: "Calicut",
+    name: "All Major Airports",
+    distance: "Varies",
+    image: "/images/destinations/cochin.png",
+    description: "Transfers to Calicut, Cochin, Bangalore & more",
+  },
+  {
+    name: "Calicut Town",
     distance: "95 km",
     image: "/images/destinations/calicut.png",
     description: "Historic port city with beaches and culture",
   },
   {
-    name: "Mysore",
+    name: "Mysore Heritage",
     distance: "140 km",
     image: "/images/destinations/mysore.png",
     description: "City of palaces and heritage splendor",
   },
   {
-    name: "Ooty",
+    name: "Ooty Hills",
     distance: "120 km",
     image: "/images/destinations/ooty.png",
     description: "Queen of the Nilgiris hill station",
   },
   {
-    name: "Bangalore",
+    name: "Bangalore City",
     distance: "280 km",
     image: "/images/destinations/bangalore.png",
     description: "India's Silicon Valley garden city",
-  },
-  {
-    name: "Cochin Airport",
-    distance: "260 km",
-    image: "/images/destinations/cochin.png",
-    description: "Airport transfers with comfort & punctuality",
-  },
-  {
-    name: "Kozhikode",
-    distance: "100 km",
-    image: "/images/destinations/kozhikode.png",
-    description: "City of spices with culinary heritage",
   },
 ];
 
@@ -121,11 +115,10 @@ export default function Destinations() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.05 }}
-              className={`group ${
-                index === 0 || index === 5
+              className={`group ${index === 0 || index === 5
                   ? "sm:col-span-2 lg:col-span-2 xl:col-span-2"
                   : ""
-              }`}
+                }`}
             >
               <div
                 className={`relative rounded-2xl overflow-hidden img-zoom cursor-pointer

@@ -95,14 +95,14 @@ const packages = [
     subtitle: "Pickup & Drop",
     tagline: "Hassle-Free Airport Service",
     description:
-      "Reliable airport pickup and departure service from Calicut (Kozhikode) International Airport to Wayanad and back. On-time, every time.",
+      "Reliable airport pickup and departure service from Calicut, Cochin, Bangalore & All Major Airports to Wayanad and back. On-time, every time.",
     icon: Plane,
     color: "from-charcoal to-charcoal/80",
     accent: "#C9A84C",
     image: "/images/pkg-airport.png",
     featured: false,
     whatsappMsg:
-      "Hi Majaz Tours! I need an airport transfer (Calicut Airport <-> Wayanad). Please share the details and pricing.",
+      "Hi Majaz Tours! I need an airport transfer (All Airports <-> Wayanad). Please share the details and pricing.",
   },
   {
     id: "custom-package",

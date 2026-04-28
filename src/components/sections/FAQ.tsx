@@ -17,14 +17,14 @@ const faqs = [
       "We offer three well-maintained AC vehicles for cab booking in Sulthan Bathery: Toyota Etios (4 passengers, ideal for couples and small groups), Suzuki Ertiga (7 passengers, perfect for families), and Toyota Innova Crysta (7 passengers, our premium SUV with captain seats). All vehicles are regularly serviced, fully insured, and driven by professional licensed drivers.",
   },
   {
-    question: "Do you provide airport taxi from Wayanad to Calicut?",
+    question: "Do you provide airport taxi services to all airports?",
     answer:
-      "Yes! Airport transfer from Wayanad to Calicut (Kozhikode International Airport) is one of our most popular services. We offer reliable, on-time airport taxi service available 24/7. Whether it's an early morning flight or a late-night arrival, our drivers will be there. We also cover airport transfers from Sulthan Bathery to Calicut and can arrange pickups from Kannur and Mysore airports.",
+      "Yes! Airport transfers to all major airports — including Calicut, Cochin, Bangalore, Kannur, and Mysore — is one of our specialty services. We offer reliable, on-time airport taxi service available 24/7. Whether it's an early morning flight or a late-night arrival, our drivers will be there with name boards to welcome you.",
   },
   {
-    question: "What is the taxi fare from Sulthan Bathery to Calicut?",
+    question: "What is the taxi fare for airport transfers from Wayanad?",
     answer:
-      "Our taxi fares from Sulthan Bathery to Calicut are transparent and competitive — no hidden charges or surge pricing. The fare depends on the vehicle type (Etios, Ertiga, or Innova Crysta) and whether it's a one-way or round trip. Call us at 9744132005 for an instant, accurate quote. We guarantee the cheapest taxi rates in Sulthan Bathery with the highest quality service.",
+      "Our taxi fares for airport transfers to Calicut, Cochin, or Bangalore are transparent and competitive — no hidden charges or surge pricing. The fare depends on the destination airport and vehicle type (Etios, Ertiga, Innova Crysta, or Traveller). Call us at 9744132005 for an instant, accurate quote for any airport in South India.",
   },
   {
     question: "Is 24-hour taxi service available in Wayanad?",
