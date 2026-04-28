@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://majaztours.com/sitemap.xml",
+    sitemap: "https://wayanadcabmajaz.com/sitemap.xml",
   };
 }

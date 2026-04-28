@@ -61,8 +61,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Majaz Tours & Travels — #1 Taxi Service in Wayanad Since 2000",
     description:
-      "26+ years of trusted taxi service in Wayanad & Sulthan Bathery. AC cabs, Calicut airport transfers, sightseeing tours. Book on WhatsApp.",
-    url: "https://majaztours.com",
+      "26+ years of trusted taxi service in Wayanad & Sulthan Bathery. AC cabs, Airport Transfers, Sightseeing Tours. Book on WhatsApp.",
+    url: "https://wayanadcabmajaz.com",
     siteName: "Majaz Tours & Travels",
     locale: "en_IN",
     type: "website",
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  metadataBase: new URL("https://majaztours.com"),
+  metadataBase: new URL("https://wayanadcabmajaz.com"),
   icons: {
     icon: "/images/logo1.png",
     shortcut: "/images/logo1.png",
@@ -93,7 +93,7 @@ const jsonLd = {
   alternateName: "Majaz Taxi Wayanad",
   description:
     "Wayanad's most trusted taxi service since 2000. Book AC cabs for airport transfers, sightseeing, and outstation trips from Sulthan Bathery, Naiketty, and across Wayanad, Kerala.",
-  url: "https://majaztours.com",
+  url: "https://wayanadcabmajaz.com",
   telephone: ["+919744132005", "+919495018055"],
   foundingDate: "2000",
   address: {
@@ -130,7 +130,7 @@ const jsonLd = {
     { "@type": "Place", name: "Calicut, Kerala" },
   ],
   priceRange: "$$",
-  image: "https://majaztours.com/og-image.jpg",
+  image: "https://wayanadcabmajaz.com/og-image.jpg",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
