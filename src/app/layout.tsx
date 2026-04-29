@@ -126,8 +126,10 @@ const jsonLd = {
   areaServed: [
     { "@type": "Place", name: "Wayanad, Kerala" },
     { "@type": "Place", name: "Sulthan Bathery, Kerala" },
-    { "@type": "Place", name: "Naiketty, Wayanad" },
+    { "@type": "Place", name: "Kalpetta, Wayanad" },
+    { "@type": "Place", name: "Mananthavadi, Wayanad" },
     { "@type": "Place", name: "Calicut, Kerala" },
+    { "@type": "Place", name: "Mysore, Kerala" },
   ],
   priceRange: "$$",
   image: "https://www.wayanadcabmajaz.com/og-image.jpg",

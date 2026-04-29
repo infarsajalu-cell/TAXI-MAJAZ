@@ -9,7 +9,7 @@ const faqs = [
   {
     question: "How do I book a taxi in Wayanad?",
     answer:
-      "Booking a Wayanad taxi with Majaz Tours is simple. You can call us directly at 9744132005, send a WhatsApp message to 9744132005, or fill out the enquiry form on our website. We respond within minutes and confirm your cab booking instantly. We serve all areas across Wayanad including Sulthan Bathery, Kalpetta, Mananthavady, and Naiketty.",
+      "Booking a Wayanad taxi with Majaz Tours is simple. You can call us directly at 9744132005, send a WhatsApp message to 9744132005, or fill out the enquiry form on our website. We respond within minutes and confirm your cab booking instantly. We serve all areas across Wayanad including Sulthan Bathery, Kalpetta, Mananthavady.",
   },
   {
     question: "What types of cabs are available in Sulthan Bathery?",
