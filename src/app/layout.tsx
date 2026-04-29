@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     title: "Majaz Tours & Travels — #1 Taxi Service in Wayanad Since 2000",
     description:
       "26+ years of trusted taxi service in Wayanad & Sulthan Bathery. AC cabs, Airport Transfers, Sightseeing Tours. Book on WhatsApp.",
-    url: "https://wayanadcabmajaz.com",
+    url: "https://www.wayanadcabmajaz.com",
     siteName: "Majaz Tours & Travels",
     locale: "en_IN",
     type: "website",
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  metadataBase: new URL("https://wayanadcabmajaz.com"),
+  metadataBase: new URL("https://www.wayanadcabmajaz.com"),
   icons: {
     icon: "/images/logo1.png",
     shortcut: "/images/logo1.png",
@@ -88,12 +88,12 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "TaxiService",
+  "@type": "LocalBusiness",
   name: "Majaz Tours & Travels",
   alternateName: "Majaz Taxi Wayanad",
   description:
     "Wayanad's most trusted taxi service since 2000. Book AC cabs for airport transfers, sightseeing, and outstation trips from Sulthan Bathery, Naiketty, and across Wayanad, Kerala.",
-  url: "https://wayanadcabmajaz.com",
+  url: "https://www.wayanadcabmajaz.com",
   telephone: ["+919744132005", "+919495018055"],
   foundingDate: "2000",
   address: {
@@ -130,12 +130,13 @@ const jsonLd = {
     { "@type": "Place", name: "Calicut, Kerala" },
   ],
   priceRange: "$$",
-  image: "https://wayanadcabmajaz.com/og-image.jpg",
+  image: "https://www.wayanadcabmajaz.com/og-image.jpg",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "500",
+    reviewCount: "50",
     bestRating: "5",
+    worstRating: "1",
   },
   sameAs: [],
 };
